@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+h2{
+    color:blue;
+}
+button.a{
+    margin: 20px 0;
+}
+</style>
+</head>
+<body>
+<center>
+<h2><b>Registration form</b></h2>
+
+
+<form>
+<table>
+  <tr>
+    <th style="padding-inline: 50px;"><label>First Name</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th style="padding-inline: 50px;"><label>Last Name</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th style="padding-inline: 50px;"><label>Email</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th style="padding-inline: 50px;"><label>Password</label></th>
+    <td><input type="password" size="50px"></td>
+  </tr>
+  <tr>
+    <th style="padding-inline: 50px;"><label>Re-enter Password</label></th>
+    <td><input type="password" size="50px"></td>
+  </tr>
+  <tr>
+    <th rowspan="2"><label>Gender:</label></th>
+    <td><input type="radio" size="50px" name="gender"/>Male</td>
+  </tr>
+  <tr>
+    <td><input type="radio" size="50px" name="gender"/>Female</td>
+  </tr>
+  <tr>
+    <th><label>Age:</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th><label>Phone Number</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th><label>Address</label></th>
+    <td><input type="text" rowspan="3" style="padding-block: 50px;" size="50px"></td>
+  </tr>
+  <tr>
+    <th><label>State</label></th>
+    <td><input type="text" size="50px"></td>
+  </tr>
+  <tr>
+    <th><label>Country</label></th>
+    <td>
+        <select>
+            <option>Choose your country</option>
+            <option>India</option>
+            <option>Pakistan</option>
+            <option>China</option>
+            <option>UAE</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+    </td>
+  </tr>
+  <tr>
+    <th><label>Languages known</label></th>
+    <td><input type="checkbox"/>English
+    <input type="checkbox"/>Kannada
+    <input type="checkbox"/>Hindi
+    <input type="checkbox"/>Telugu
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="checkbox"/>Hereby I declare all the given details are true</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="right">Log in to <a href="https://www.ethnus.com" target="_blank">Ethnus</a> website</td>
+  </tr>
+ 
+</table>
+<button class="a">Register</button>
+</form>
+</center>
+</body>
+</html>
+

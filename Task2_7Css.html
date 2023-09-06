@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            display:block;
+            width:40%;
+            border:none;
+            border-radius: 4px;
+            background-color:white;
+            color: black;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor:pointer;
+            text-align: center;
+            margin-top: 8px;
+        }
+        form{
+            padding: 150px 45px 40px 100px;
+            width: 50%;
+            top: 40px;
+        }
+        body{
+            background-color:rgb(194, 47, 72);
+        }
+        form{
+            background-color: rgb(123, 3, 3);
+            height:500px;
+        }
+        #a{
+            color: white;
+            font-size: 15px;
+           font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+
+    <table>
+        <tr>
+            <td id="a"><label>Name:</label></td>
+            <td><input type="text" size="20px" placeholder="your name" style="height: 20px;"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>Email:</label></td>
+            <td><input type="text" size="20px" placeholder="your email" style="margin-top: 8px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>Password:</label></td>
+            <td><input type="password" size="20px" style="margin-top: 8px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>Phone Number:</label></td>
+            <td><input type="text" size="20px" style="margin-top: 8px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>Gender:</label>
+            <td >Male:<input type="radio" name="gender" style="margin-top: 4px;">Female:<input type="radio" name="gender">Other:<input type="radio" name="gender"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>language</label></td>
+            <td><select style="background-color:cornsilk; padding-block: 3px;">
+                <option>Select language</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>French</option>
+                <option>German</option>
+                <option>Spanish</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td id="a"><label>Zip Code:</label></td>
+            <td><input type="text" style="margin-top: 8px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <td id="a"><label>About:</label></td>
+            <td><textarea style="margin-top:8px;height: 35px;" placeholder="Write about yourself.."></textarea></td>
+        </tr>
+    </table>
+    <button class="block"><b>Register</b></button>
+    </form>
+    </center>
+</body>
+</html>

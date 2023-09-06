@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: skyblue;
+  border:1px solid;
+    overflow: auto;
+    position: fixed;
+}
+
+.b{
+    margin:80px 0;
+}
+a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+li a.active{
+    background-color: orange;
+    color:white;
+}
+li a:hover:not(.active){
+  background-color: #555;
+  color: white;
+}
+#demo1{
+    list-style-type:none;
+    width: 360px;
+    margin: -45px 0;
+    overflow:hidden;
+    background-color: lightgrey;
+    border: 1px solid;
+
+}
+#demo2{
+    
+    float:left;
+    border-right: 1px solid blue;
+}
+
+.active{
+  background-color: grey;
+
+}
+#demo3{
+  display:block;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<h4>Vertical Navigation Bar</h4>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#CSS">CSS</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#bootstrap">Bootstrap</a></li>
+</ul>
+<div style="margin-left: 18%;margin-top: -2%;">
+    <h4 class="b" style="margin-left: 7%;">Horizontal Navigation Bar</h4>
+    <ul id="demo1">
+        <li id="demo2" class="active"><a id ="demo3" href="#home" style="color: white;">Home</a></li>
+        <li id="demo2"><a id ="demo3" href="#java">Java</a></li>
+        <li id="demo2"><a id ="demo3" href="#html">HTML</a></li>
+        <li id="demo2"><a id ="demo3" href="#css">CSS</a></li>
+    </ul>
+</div>
+
+
+</body>
+</html>
+
+
